@@ -1,0 +1,122 @@
+--- !ruby/object:Puppet::Node
+name: mock1.node
+environment: :production
+parameters:
+  aio_agent_version: 1.7.0
+  architecture: x86_64
+  augeas:
+    version: 1.4.0
+  augeasversion: 1.4.0
+  blockdevice_sda_vendor: ATA
+  blockdevices: sda
+  chassistype: Laptop
+  domain: node
+  facterversion: 3.4.1
+  filesystems: ext2,ext3,ext4
+  fqdn: mock1.node
+  gid: mock
+  hardwareisa: x86_64
+  hardwaremodel: x86_64
+  hostname: mock1
+  id: mock
+  identity:
+    gid: 1001
+    group: mock
+    privileged: false
+    uid: 1001
+    user: mock
+  interfaces: eno1,lo
+  ipaddress: 192.168.236.114
+  ipaddress6_lo: "::1"
+  ipaddress_lo: 127.0.0.1
+  is_virtual: false
+  kernel: Linux
+  kernelmajversion: '4.7'
+  kernelrelease: 4.7.7-200.fc24.x86_64
+  kernelversion: 4.7.7
+  load_averages:
+    15m: 0.1
+    1m: 0.19
+    5m: 0.1
+  lsbdistcodename: TwentyFour
+  lsbdistdescription: Fedora release 24 (Twenty Four)
+  lsbdistid: Fedora
+  lsbdistrelease: '24'
+  lsbmajdistrelease: '24'
+  lsbrelease: ":core-4.1-amd64:core-4.1-noarch:cxx-4.1-amd64:cxx-4.1-noarch:desktop-4.1-amd64:desktop-4.1-noarch:languages-4.1-amd64:languages-4.1-noarch:printing-4.1-amd64:printing-4.1-noarch"
+  memory:
+    swap:
+      available: 25.64 GiB
+      available_bytes: 27535601664
+      capacity: 0%
+      total: 25.64 GiB
+      total_bytes: 27535601664
+      used: 0 bytes
+      used_bytes: 0
+    system:
+      available: 13.45 GiB
+      available_bytes: 14441558016
+      capacity: 13.67%
+      total: 15.58 GiB
+      total_bytes: 16728879104
+      used: 2.13 GiB
+      used_bytes: 2287321088
+  memoryfree: 13.45 GiB
+  memoryfree_mb: 13772.54296875
+  memorysize: 15.58 GiB
+  memorysize_mb: 15953.90234375
+  mtu_eno1: 1500
+  mtu_lo: 65536
+  netmask: 255.255.255.0
+  operatingsystem: Fedora
+  operatingsystemmajrelease: '24'
+  operatingsystemrelease: '24'
+  osfamily: RedHat
+  physicalprocessorcount: 1
+  processor0: Intel(R) Core(TM) i7-4600U CPU @ 2.10GHz
+  processor1: Intel(R) Core(TM) i7-4600U CPU @ 2.10GHz
+  processor2: Intel(R) Core(TM) i7-4600U CPU @ 2.10GHz
+  processor3: Intel(R) Core(TM) i7-4600U CPU @ 2.10GHz
+  processorcount: 4
+  processors:
+    count: 4
+    isa: x86_64
+    models:
+    - Intel(R) Core(TM) i7-4600U CPU @ 2.10GHz
+    - Intel(R) Core(TM) i7-4600U CPU @ 2.10GHz
+    - Intel(R) Core(TM) i7-4600U CPU @ 2.10GHz
+    - Intel(R) Core(TM) i7-4600U CPU @ 2.10GHz
+    physicalcount: 1
+    speed: 3.30 GHz
+  puppetversion: 4.7.0
+  ruby:
+    platform: x86_64-linux
+    sitedir: "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.1.0"
+    version: 2.1.9
+  rubyplatform: x86_64-linux
+  rubysitedir: "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.1.0"
+  rubyversion: 2.1.9
+  selinux: true
+  selinux_config_mode: enforcing
+  selinux_current_mode: enforcing
+  selinux_enforced: true
+  selinux_policyversion: '30'
+  swapfree: 25.64 GiB
+  swapfree_mb: 26259.99609375
+  swapsize: 25.64 GiB
+  swapsize_mb: 26259.99609375
+  system_uptime:
+    days: 0
+    hours: 4
+    seconds: 16051
+    uptime: 4:27 hours
+  timezone: CEST
+  uptime: 4:27 hours
+  uptime_days: 0
+  uptime_hours: 4
+  uptime_seconds: 16051
+  virtual: physical
+  clientcert: mock1.node
+  clientversion: 4.7.0
+  clientnoop: false
+  environment: production

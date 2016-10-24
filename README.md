@@ -30,6 +30,7 @@ so you can ...
 * run `puppet preview` with the following additional parameters:
   * `--environmentpath $(pwd)/environments`
   * `--yamldir $(pwd)/mock_yaml`
+  *  `--node_terminus yaml`
   * `--baseline_environment=production`
   * `--preview_environment=feature`
   * ... additional params required if you have hieradata (`hiera_config` 
@@ -58,6 +59,7 @@ Preview:
 #> /opt/puppetlabs/bin/puppet preview \
   --environmentpath $(pwd)/environments \
   --yamldir $(pwd)/mock_yaml \
+  --node_terminus yaml \
   --baseline_environment=production \
   --preview_environment=feature \
   --view overview \
